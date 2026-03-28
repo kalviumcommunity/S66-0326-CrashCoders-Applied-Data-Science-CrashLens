@@ -1,0 +1,26 @@
+name: base
+channels:
+  - defaults
+dependencies:
+  - _anaconda_depends
+  - python=3.13
+  - setuptools
+  - pip
+  - wheel
+  - anaconda-anon-usage
+  - anaconda-catalogs
+  - anaconda-client
+  - anaconda-project
+  - anaconda-navigator
+  - conda[version='>=25.11.1']
+  - conda-anaconda-telemetry[version='>=0.3.0']
+  - conda-anaconda-tos[version='>=0.2.2']
+  - conda-build[version='>=25.11.1']
+  - conda-content-trust
+  - conda-libmamba-solver
+  - conda-pack
+  - conda-package-handling
+  - conda-package-streaming
+  - anaconda-auth
+  - python.app
+prefix: /Users/fibafathima/anaconda3
