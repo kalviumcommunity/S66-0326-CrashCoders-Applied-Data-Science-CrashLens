@@ -1,0 +1,57 @@
+{
+ "cells": [
+  {
+   "cell_type": "raw",
+   "id": "df8893b3-4796-419e-a81f-3123375f9fcf",
+   "metadata": {},
+   "source": [
+    "# Project Folder Structure\n",
+    "This structure separates our workspaces purposefully:\n",
+    "* **data/**: Stores our raw and processed data so they don't get accidentally overwritten.\n",
+    "* **notebooks/**: Contains interactive exploratory data analysis files (.ipynb).\n",
+    "* **scripts/**: Holds python files (.py) for complex reusable logic.\n",
+    "* **outputs/**: The destination for graphs, figures, and exports.\n",
+    "\n",
+    "### Why this matters:\n",
+    "By not blending data, notebooks, and outputs, the repository avoids broken file paths and lost files."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "1e80d88d-0a41-43ba-91bd-3475ee5e526d",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "57dbc140-f6ce-4580-a906-c12de8a8881d",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.13.9"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}

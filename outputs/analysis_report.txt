@@ -1,0 +1,5 @@
+Data Analysis Report
+====================
+Number of rows processed: 5
+Average original value: 30.0
+Average doubled value: 60.0
