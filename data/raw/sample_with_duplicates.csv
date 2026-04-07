@@ -1,0 +1,11 @@
+record_id,location,severity,weather,time_band,reported_by
+101,Central Junction,High,Rain,Night,Officer_A
+102,River Bridge,Medium,Clear,Evening,Officer_B
+103,Hill Road,Low,Cloudy,Morning,Officer_C
+101,Central Junction,High,Rain,Night,Officer_A
+104,Market Street,High,Fog,Night,Officer_D
+105,Airport Road,Medium,Clear,Afternoon,Officer_E
+104,Market Street,High,Fog,Night,Officer_D
+106,Lake Avenue,Low,Clear,Morning,Officer_F
+107,Station Circle,Medium,Rain,Evening,Officer_G
+107,Station Circle,Medium,Rain,Evening,Officer_G
