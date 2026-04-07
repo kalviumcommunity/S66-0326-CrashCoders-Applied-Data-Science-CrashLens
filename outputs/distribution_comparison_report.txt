@@ -1,0 +1,21 @@
+Distribution Comparison Report
+==============================
+Input file: D:\Desktop\Projects\SW\sem4\S66-0326-CrashCoders-Applied-Data-Science-CrashLens\data\raw\distribution_comparison_sample.csv
+
+Per-column distribution statistics:
+- delivery_time_min: mean=36.62, median=30.50, min=27.00, max=80.00, range=53.00, std_dev=17.72, cv=0.48
+- daily_orders: mean=97.38, median=100.50, min=60.00, max=120.00, range=60.00, std_dev=17.90, cv=0.18
+- customer_rating: mean=4.51, median=4.60, min=3.80, max=4.80, range=1.00, std_dev=0.31, cv=0.07
+- refund_amount: mean=16.38, median=9.50, min=5.00, max=65.00, range=60.00, std_dev=19.88, cv=1.21
+
+Interpretation notes:
+- delivery_time_min: mean and median differ notably, suggesting skew or outliers; distribution shows moderate variability
+- daily_orders: mean and median are close, suggesting a relatively stable center; distribution shows low relative variability
+- customer_rating: mean and median are close, suggesting a relatively stable center; distribution shows low relative variability
+- refund_amount: mean and median differ notably, suggesting skew or outliers; distribution shows high relative variability
+
+Cross-column observations:
+- Highest mean: daily_orders
+- Highest spread by std_dev: refund_amount
+- Widest value range: daily_orders
+- These comparisons provide a baseline for asking better EDA questions before deeper analysis.
