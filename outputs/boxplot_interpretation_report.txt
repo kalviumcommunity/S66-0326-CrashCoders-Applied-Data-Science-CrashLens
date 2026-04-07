@@ -1,0 +1,15 @@
+Boxplot Interpretation Report
+===========================
+Input file: D:\Desktop\Projects\SW\sem4\S66-0326-CrashCoders-Applied-Data-Science-CrashLens\data\raw\distribution_comparison_sample.csv
+Boxplot image: D:\Desktop\Projects\SW\sem4\S66-0326-CrashCoders-Applied-Data-Science-CrashLens\outputs\boxplot_overview.png
+
+Column-wise quartile and outlier summary:
+- delivery_time_min: min=27.00, q1=28.75, median=30.50, q3=33.50, max=80.00, iqr=4.75, outliers=1
+- daily_orders: min=60.00, q1=93.25, median=100.50, q3=106.25, max=120.00, iqr=13.00, outliers=1
+- customer_rating: min=3.80, q1=4.47, median=4.60, q3=4.70, max=4.80, iqr=0.23, outliers=1
+- refund_amount: min=5.00, q1=7.75, median=9.50, q3=12.75, max=65.00, iqr=5.00, outliers=1
+
+Cross-column observations:
+- Widest middle spread by IQR: daily_orders
+- Most potential outliers by 1.5*IQR rule: delivery_time_min
+- Outliers are signals for investigation, not automatic errors to remove.
