@@ -1,0 +1,5 @@
+customer_name,order_date,total_amount,city_town,status
+alice,2026-01-05,1200.5,new york,completed
+bob,2026-05-02,850.0,new york,completed
+charlie,2026-03-10,975.0,los angeles,pending
+diana,2026-03-15,1100.0,los angeles,pending
