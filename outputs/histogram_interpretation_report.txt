@@ -1,0 +1,14 @@
+Histogram Interpretation Report
+=============================
+Input file: D:\Desktop\Projects\SW\sem4\S66-0326-CrashCoders-Applied-Data-Science-CrashLens\data\raw\distribution_comparison_sample.csv
+Histogram image: D:\Desktop\Projects\SW\sem4\S66-0326-CrashCoders-Applied-Data-Science-CrashLens\outputs\histogram_overview.png
+
+Column-wise observations:
+- delivery_time_min: shape=right-skewed, min=27.00, max=80.00, std_dev=17.72, skew=2.71
+- daily_orders: shape=left-skewed, min=60.00, max=120.00, std_dev=17.90, skew=-1.29
+- customer_rating: shape=left-skewed, min=3.80, max=4.80, std_dev=0.31, skew=-2.00
+- refund_amount: shape=right-skewed, min=5.00, max=65.00, std_dev=19.88, skew=2.70
+
+Why this matters:
+- Histograms reveal skew, concentration, and unusual tails that summary values alone can hide.
+- These visuals help identify columns that may need deeper inspection before analysis.
