@@ -1,0 +1,14 @@
+Line Plot Trend Interpretation Report
+====================================
+Input file: D:\Desktop\Projects\SW\sem4\S66-0326-CrashCoders-Applied-Data-Science-CrashLens\data\raw\time_trend_sample.csv
+Ordered data file: D:\Desktop\Projects\SW\sem4\S66-0326-CrashCoders-Applied-Data-Science-CrashLens\data\processed\time_trend_sample_ordered.csv
+Line plot image: D:\Desktop\Projects\SW\sem4\S66-0326-CrashCoders-Applied-Data-Science-CrashLens\outputs\time_trend_line_plots.png
+
+Trend observations:
+- daily_active_users: upward trend; largest day-to-day change on 2026-01-09 with absolute change 350.00
+- avg_session_minutes: upward trend; largest day-to-day change on 2026-01-09 with absolute change 9.00
+- error_rate: downward trend; largest day-to-day change on 2026-01-08 with absolute change 1.80
+
+Notes:
+- Data is ordered by date before plotting to preserve temporal meaning.
+- Sudden spikes or drops are indicators to investigate context, not immediate conclusions.
