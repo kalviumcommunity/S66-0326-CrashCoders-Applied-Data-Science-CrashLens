@@ -184,6 +184,44 @@ jupyter notebook environment_verification.ipynb
 
 ## Project Overview
 
+### Final Project Insights, Assumptions, and Limitations
+
+### Final Insights
+
+- Early data quality checks (missing values, duplicates, and format consistency) significantly improved reliability before any deeper analysis.
+- Comparing distributions across columns helped highlight where behavior differs: some variables are stable while others show wider spread and higher variability.
+- Histogram and boxplot views made skewness and outlier behavior easier to detect than summary statistics alone.
+- Time-based line plots revealed trend direction and abrupt shifts that would be missed in static snapshots.
+- Scatter plots helped surface relationship patterns between variables and exposed unusual observations that deserve investigation.
+
+Overall, the major insight from this project is that strong preprocessing and EDA discipline creates trustworthy foundations. Most useful findings came from combining multiple simple methods, not from one metric or one chart.
+
+### Assumptions
+
+- The sample datasets used in milestones are assumed to be representative enough for demonstrating core EDA concepts and workflows.
+- Date parsing and formatting assumptions were made using standard parsing behavior and consistent output formats.
+- Outlier detection rules (especially IQR and threshold checks) were treated as indicators rather than final truth.
+- Relationship and trend interpretations were based on observed patterns in available samples, assuming no hidden domain constraints outside the dataset.
+- The workflow assumes contributors run scripts in the documented environment and that generated outputs remain reproducible.
+
+These assumptions were reasonable for milestone-based development, but they should be validated with real production data before high-stakes decisions.
+
+### Limitations
+
+- Most datasets in this repository are small and educational, so conclusions should be treated as methodological demonstrations rather than production findings.
+- Visual interpretations (for trend direction, skew, and relationship patterns) are informative but can still be sensitive to sample size and data quality.
+- Outlier detection in this project is rule-based and visual; it does not include domain-specific validation or root-cause investigation.
+- Time-series analysis here is exploratory and does not include seasonality decomposition or forecasting.
+- Scatter-plot relationship checks are descriptive only; they do not establish causation.
+
+Because of these limitations, results should be interpreted as exploratory evidence that guides next questions, not as final decision rules.
+
+### Clarity and Trust Notes
+
+- Each milestone keeps outputs explicit in `data/processed` and `outputs` so reviewers can trace what was generated.
+- Reports are written in plain language to make findings understandable without reading every script.
+- Decisions (such as flagging outliers without removing them) were kept intentional and explainable to preserve transparency.
+
 This project applies data science techniques to analyze crash data and build predictive models for safety assessment.
 
 ### Future Work (Upcoming Milestones)
