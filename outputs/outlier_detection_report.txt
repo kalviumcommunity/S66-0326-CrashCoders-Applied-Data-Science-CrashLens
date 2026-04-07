@@ -1,0 +1,16 @@
+Outlier Detection Report
+========================
+Input file: D:\Desktop\Projects\SW\sem4\S66-0326-CrashCoders-Applied-Data-Science-CrashLens\data\raw\outlier_detection_sample.csv
+Boxplot image: D:\Desktop\Projects\SW\sem4\S66-0326-CrashCoders-Applied-Data-Science-CrashLens\outputs\outlier_boxplots.png
+Scatter image: D:\Desktop\Projects\SW\sem4\S66-0326-CrashCoders-Applied-Data-Science-CrashLens\outputs\outlier_scatter.png
+Flagged records file: D:\Desktop\Projects\SW\sem4\S66-0326-CrashCoders-Applied-Data-Science-CrashLens\data\processed\outlier_flags.csv
+
+IQR rule summary:
+- transaction_amount: q1=126.50, q3=138.50, iqr=12.00, lower=108.50, upper=156.50, flagged=1
+- delivery_time_min: q1=30.00, q3=33.25, iqr=3.25, lower=25.12, upper=38.12, flagged=1
+- customer_visits: q1=4.00, q3=5.25, iqr=1.25, lower=2.12, upper=7.12, flagged=2
+
+Interpretation notes:
+- Outlier flags are indicators for review, not automatic deletion signals.
+- Some outliers may be valid rare events rather than data errors.
+- Next steps should be decided using domain context and source validation.
