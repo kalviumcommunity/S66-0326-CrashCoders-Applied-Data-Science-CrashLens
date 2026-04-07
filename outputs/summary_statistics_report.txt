@@ -1,0 +1,17 @@
+Summary Statistics Report
+=========================
+Input file: D:\Desktop\Projects\SW\sem4\S66-0326-CrashCoders-Applied-Data-Science-CrashLens\data\raw\summary_stats_sample.csv
+
+Computed statistics by numeric column:
+response_time_sec: count=8, mean=22.88, median=13.50, min=11.00, max=90.00, variance=738.41, std_dev=27.17, range=79.00
+error_count: count=8, mean=1.50, median=1.00, min=0.00, max=7.00, variance=5.43, std_dev=2.33, range=7.00
+transaction_value: count=8, mean=176.88, median=131.00, min=118.00, max=510.00, variance=18190.41, std_dev=134.87, range=392.00
+
+Interpretation notes:
+- response_time_sec: mean and median differ noticeably, suggesting possible skew or outliers; high spread compared to average value
+- error_count: mean and median differ noticeably, suggesting possible skew or outliers; high spread compared to average value
+- transaction_value: mean and median differ noticeably, suggesting possible skew or outliers; high spread compared to average value
+
+Cross-column comparison:
+- Highest variability by standard deviation: transaction_value
+- Use these summaries as a first quantitative snapshot before deeper analysis.
