@@ -4,6 +4,44 @@ Applied Data Science project for crash analysis and predictive modeling.
 
 ---
 
+## Question, Data, Insight in Our Project Approach
+
+We treat data science as a flow from a clear question, to trustworthy evidence, to useful insight.
+
+### Starting with the question
+
+We start by defining the decision we want to support, not by opening a dataset first. For us, this is the most important step because it sets boundaries for the whole project. A clear question tells us what matters, what does not, and how we will judge whether the analysis was actually useful.
+
+If we skip this step, we can still produce charts and model outputs, but they may not solve a real problem.
+
+### Using data as evidence
+
+After the question is clear, we treat data as evidence for that question. This means we do not just load columns and run analysis. We first check where the data came from, what each field represents, whether important values are missing, and whether the quality is good enough for reliable conclusions.
+
+Understanding data before analysis helps us avoid false confidence. It also helps us decide whether we need more sources before making claims.
+
+### Turning findings into insight
+
+We consider insight to be the interpretation that can guide action. Numbers alone are not insight. A result becomes insight only when we connect it back to the question and explain what someone should do differently because of it.
+
+For example, saying "weekend nighttime crashes are much higher in one district" is a result. The insight is that safety resources should be prioritized in that district during those hours because that is where near-term impact is likely to be highest.
+
+### How we apply this to a realistic context
+
+In a city road safety planning context, our guiding question would be: which crash conditions and locations should be prioritized first to reduce severe injuries?
+
+To answer that, we would use:
+
+- Police crash records for location, time, severity, weather, light condition, and road characteristics.
+- Traffic exposure data so high traffic areas are not automatically treated as high risk.
+- Infrastructure data such as speed limits, signal placement, crossings, and lighting.
+
+These sources could come from city open data portals, police reports, and GIS or public works databases.
+
+The most useful insight for decision-making would be a ranked set of high-impact intervention zones, with clear reasons and recommended actions such as lighting upgrades, signal timing changes, or speed calming. That type of output helps leaders allocate resources where safety impact is expected to be strongest.
+
+---
+
 ## 🎯 Milestone 1: Environment Verification Status
 
 **Status:** ✅ **VERIFIED AND READY**  
@@ -12,18 +50,19 @@ Applied Data Science project for crash analysis and predictive modeling.
 
 ### System Configuration
 
-| Component | Version | Status |
-|-----------|---------|--------|
-| **Operating System** | macOS 26.3 (Darwin) | ✅ Verified |
-| **Python** | 3.13.9 (Anaconda) | ✅ Installed |
-| **Conda** | 25.11.1 | ✅ Functional |
-| **Active Environment** | base | ✅ Activated |
-| **Jupyter Notebook** | 7.4.5 | ✅ Running |
-| **JupyterLab** | 4.4.7 | ✅ Available |
+| Component              | Version             | Status        |
+| ---------------------- | ------------------- | ------------- |
+| **Operating System**   | macOS 26.3 (Darwin) | ✅ Verified   |
+| **Python**             | 3.13.9 (Anaconda)   | ✅ Installed  |
+| **Conda**              | 25.11.1             | ✅ Functional |
+| **Active Environment** | base                | ✅ Activated  |
+| **Jupyter Notebook**   | 7.4.5               | ✅ Running    |
+| **JupyterLab**         | 4.4.7               | ✅ Available  |
 
 ### Python Installation Verification
 
 **Terminal Commands Executed:**
+
 ```bash
 $ python --version
 Python 3.13.9
@@ -37,6 +76,7 @@ $ python -c "import sys; print('✓ Python callable'); print(f'✓ Version: {sys
 ```
 
 **Python REPL Tests:** ✓ PASSED
+
 - Basic arithmetic operations
 - Module imports (sys, platform)
 - String and list operations
@@ -45,6 +85,7 @@ $ python -c "import sys; print('✓ Python callable'); print(f'✓ Version: {sys
 ### Conda Environment Verification
 
 **Terminal Commands Executed:**
+
 ```bash
 $ conda --version
 conda 25.11.1
@@ -59,6 +100,7 @@ base
 ```
 
 **Environment Status:**
+
 - ✅ Base environment active
 - ✅ Conda accessible from terminal
 - ✅ Environment variables correctly set
@@ -67,6 +109,7 @@ base
 ### Jupyter Notebook/Lab Verification
 
 **Terminal Commands Executed:**
+
 ```bash
 $ which jupyter
 /Users/fibafathima/anaconda3/bin/jupyter
@@ -84,6 +127,7 @@ Available kernels:
 ```
 
 **Jupyter Functionality:**
+
 - ✅ Jupyter Notebook launches successfully
 - ✅ JupyterLab accessible via browser
 - ✅ Python kernel connected and responsive
@@ -92,14 +136,14 @@ Available kernels:
 
 ### Essential Data Science Packages
 
-| Package | Version | Status |
-|---------|---------|--------|
-| NumPy | 2.3.5 | ✅ Installed |
-| Pandas | 2.3.3 | ✅ Installed |
-| Matplotlib | 3.10.6 | ✅ Installed |
-| Scikit-learn | 1.7.2 | ✅ Installed |
-| IPython | 9.7.0 | ✅ Installed |
-| Jupyter Core | 5.8.1 | ✅ Installed |
+| Package      | Version | Status       |
+| ------------ | ------- | ------------ |
+| NumPy        | 2.3.5   | ✅ Installed |
+| Pandas       | 2.3.3   | ✅ Installed |
+| Matplotlib   | 3.10.6  | ✅ Installed |
+| Scikit-learn | 1.7.2   | ✅ Installed |
+| IPython      | 9.7.0   | ✅ Installed |
+| Jupyter Core | 5.8.1   | ✅ Installed |
 
 ### Verification Evidence
 
@@ -113,6 +157,7 @@ The following files provide proof of verification:
 ### How to Verify This Setup
 
 **Quick Verification:**
+
 ```bash
 # Run the complete verification script
 bash verify_setup.sh
@@ -127,6 +172,7 @@ jupyter notebook
 ```
 
 **Detailed Verification:**
+
 ```bash
 # Open the verification notebook
 jupyter notebook environment_verification.ipynb
@@ -141,6 +187,7 @@ jupyter notebook environment_verification.ipynb
 This project applies data science techniques to analyze crash data and build predictive models for safety assessment.
 
 ### Future Work (Upcoming Milestones)
+
 - Data collection and preprocessing
 - Exploratory Data Analysis (EDA)
 - Feature engineering
@@ -152,6 +199,7 @@ This project applies data science techniques to analyze crash data and build pre
 ## Development Environment
 
 **Setup Instructions for Team Members:**
+
 ```bash
 # Clone the repository
 git clone <repository-url>
