@@ -1,0 +1,14 @@
+Scatter Plot Relationship Report
+================================
+Input file: D:\Desktop\Projects\SW\sem4\S66-0326-CrashCoders-Applied-Data-Science-CrashLens\data\raw\scatter_relationships_sample.csv
+Scatter image: D:\Desktop\Projects\SW\sem4\S66-0326-CrashCoders-Applied-Data-Science-CrashLens\outputs\scatter_relationships_overview.png
+
+Relationship observations:
+- study_hours vs test_score: positive relationship pattern; potential outliers -> study_hours: 0, test_score: 0
+- sleep_hours vs test_score: negative relationship pattern; potential outliers -> sleep_hours: 0, test_score: 0
+- stress_level vs test_score: negative relationship pattern; potential outliers -> stress_level: 0, test_score: 0
+
+Notes:
+- Each point represents one observation across two numeric variables.
+- Scatter plots are used to inspect relationship direction, clusters, and isolated points.
+- Visual patterns should guide questions before statistical modeling.
