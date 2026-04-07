@@ -1,0 +1,24 @@
+Column and Format Standardization Report
+====================================
+Input file: D:\Desktop\Projects\SW\sem4\S66-0326-CrashCoders-Applied-Data-Science-CrashLens\data\raw\messy_format_sample.csv
+Output file: D:\Desktop\Projects\SW\sem4\S66-0326-CrashCoders-Applied-Data-Science-CrashLens\data\processed\standardized_format_sample.csv
+
+Column mapping (before -> after):
+- Customer Name  -> customer_name
+-  Order Date -> order_date
+- Total Amount($) -> total_amount
+- City/Town -> city_town
+- Status  -> status
+
+Standardization steps applied:
+- Column names converted to snake_case
+- Text columns lowercased and whitespace normalized
+- total_amount cleaned and converted to numeric
+- order_date parsed and converted to YYYY-MM-DD
+
+Post-standardization dtype summary:
+customer_name        str
+order_date           str
+total_amount     float64
+city_town            str
+status               str
